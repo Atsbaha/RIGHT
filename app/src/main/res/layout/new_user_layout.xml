@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardElevation="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:background="@drawable/background">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/firstLinear"
+        android:layout_marginTop="450dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnFooodOrder"
+            android:text="Food Order"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold|italic"
+            android:background="@drawable/btn_background"/>
+        <Button
+            android:id="@+id/btnDrinkkOrder"
+            android:text="Drink Order"
+            android:textStyle="bold|italic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_background"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/secondLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstLinear">
+
+        <Button
+            android:id="@+id/btnFoottballProgram"
+            android:text="Football Program"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold|italic"
+            android:background="@drawable/btn_background"/>
+        <Button
+            android:id="@+id/btnMusiccOrder"
+            android:text="Music Order"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold|italic"
+            android:background="@drawable/btn_background"
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondLinear">
+        <!--<Button-->
+        <!--android:id="@+id/btnTableReservation"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@drawable/button_background"-->
+        <!--android:text="Table Reservation"-->
+        <!--android:textStyle="bold|italic" />-->
+
+    </LinearLayout>
+
+</RelativeLayout>
+

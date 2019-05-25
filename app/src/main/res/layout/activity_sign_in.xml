@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saintmary.right.SignIn"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="680dp"
+        android:background="@drawable/background">
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<EditText
+
+    android:layout_marginTop="50dp"
+    android:id="@+id/edtPhone"
+    android:hint="Phone Number"
+    android:textStyle="bold|italic"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:textColorHint="@android:color/white"
+    android:text="0919007254"
+    android:textColor="@android:color/white"
+    android:textSize="34sp"
+    android:inputType="phone"
+    app:met_baseColor="@android:color/white"
+    app:met_floatingLabel="highlight"
+    app:met_maxCharacters="10"
+    app:met_primaryColor="@android:color/white"
+    app:met_singleLineEllipsis="true"
+    android:drawableLeft="@drawable/ic_phone_number"
+    android:background="@drawable/custom_edit_text_bg"/>
+
+        <EditText
+            android:layout_marginTop="50dp"
+            android:id="@+id/edtPassword"
+            android:hint="Password"
+            android:textStyle="bold|italic"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textColorHint="@android:color/white"
+            android:text="what"
+            android:textColor="@android:color/white"
+            android:textSize="34sp"
+            android:inputType="textPassword"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"
+            android:drawableLeft="@drawable/ic_password"
+            android:background="@drawable/custom_edit_text_bg"
+
+            />
+        <!--android:background="@drawable/custom_edit_text_bg"-->
+       <LinearLayout
+           android:orientation="horizontal"
+           android:weightSum="2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+<!--check by typing com.rey.material.widget.CheckBox instead of CheckBox only -->
+           <CheckBox
+               android:id="@+id/ckbRemember"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:textStyle="bold|italic"
+               android:text="Remember Me"
+               android:textColor="@android:color/white"
+               android:gravity="center_vertical"
+               />
+           <!--android:cdb_tickColor="color/colorPrimaryDark"
+           style="@style/Material.Drawable.CheckBox"
+           app:cdb_StrokeColor="@android:color/white"
+           app:cdb_tickColor="color/colorPrimaryDark"-->
+           <TextView
+               android:id="@+id/txtForgetPwd"
+               android:textColor="@android:color/white"
+               android:textStyle="bold|italic"
+               android:text="@string/forget_pwd"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+
+
+       </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/custom_singup"
+        android:gravity="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:textStyle="bold|italic"
+
+        android:text="Log In"
+        android:textColor="@android:color/white"
+        />
+    <!--android:background="@color/colorPrimaryDark"-->
+
+
+</RelativeLayout>

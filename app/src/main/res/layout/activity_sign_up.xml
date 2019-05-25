@@ -1,0 +1,182 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:background="@drawable/background"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.saintmary.right.SignUp">
+<!--tools:context=".Signin"
+ <ScrollView
+-->
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_centerInParent="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--com.rengwuxian.materialedittext.Material-->
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <EditText
+        android:layout_marginTop="18dp"
+        android:id="@+id/edtFirstName"
+        android:textStyle="bold|italic"
+        android:hint="First Name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColorHint="@android:color/white"
+
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:inputType="text"
+        app:met_baseColor="@android:color/white"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="11"
+        app:met_primaryColor="@android:color/white"
+        app:met_singleLineEllipsis="true"
+        android:drawableLeft="@drawable/ic_person_name"
+        android:background="@drawable/custom_edit_text_bg"/>
+    <!-- android:text="0919007254"-->
+    <EditText
+        android:layout_marginTop="31dp"
+        android:id="@+id/edtLastName"
+        android:textStyle="bold|italic"
+        android:hint="Last Name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColorHint="@android:color/white"
+
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:inputType="text"
+        app:met_baseColor="@android:color/white"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="11"
+        app:met_primaryColor="@android:color/white"
+        app:met_singleLineEllipsis="true"
+        android:drawableLeft="@drawable/ic_person_name"
+        android:background="@drawable/custom_edit_text_bg"/>
+    <!--android:text="Atsbaha"-->
+
+    <EditText
+        android:layout_marginTop="32dp"
+        android:textStyle="bold|italic"
+        android:id="@+id/edtPhone"
+        android:hint="Phone Number"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColorHint="@android:color/white"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:inputType="phone"
+        app:met_baseColor="@android:color/white"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="11"
+        app:met_primaryColor="@android:color/white"
+        app:met_singleLineEllipsis="true"
+        android:drawableLeft="@drawable/ic_phone_number"
+        android:background="@drawable/custom_edit_text_bg"/>
+    <!--com.rengwuxian.materialedittext.Material-->
+
+
+
+    <!--com.rengwuxian.materialedittext.Material-->
+
+    <EditText
+        android:layout_marginTop="33dp"
+        android:textStyle="bold|italic"
+        android:id="@+id/edtPassword"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColorHint="@android:color/white"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:inputType="textPassword"
+        app:met_baseColor="@android:color/white"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="11"
+        app:met_primaryColor="@android:color/white"
+        app:met_singleLineEllipsis="true"
+        android:drawableLeft="@drawable/ic_password"
+
+        android:background="@drawable/custom_edit_text_bg"/>
+    <EditText
+        android:layout_marginTop="33dp"
+
+        android:textStyle="bold|italic"
+        android:id="@+id/edtConfirmPassword"
+        android:hint="Confirm Password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColorHint="@android:color/white"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:inputType="textPassword"
+        app:met_baseColor="@android:color/white"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="11"
+        app:met_primaryColor="@android:color/white"
+        app:met_singleLineEllipsis="true"
+        android:drawableLeft="@drawable/ic_password"
+
+        android:background="@drawable/custom_edit_text_bg"/>
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold|italic"
+        android:id="@+id/edtSecureCode"
+        android:hint="Password hint"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColorHint="@android:color/white"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:inputType="textPassword"
+        app:met_baseColor="@android:color/white"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="11"
+        app:met_primaryColor="@android:color/white"
+        app:met_singleLineEllipsis="true"
+        android:drawableLeft="@drawable/ic_password"
+
+        android:background="@drawable/custom_edit_text_bg"/>
+
+
+</LinearLayout>
+
+
+<!--<info.hoang8f.widget.FButton
+app:buttonColor="@color/btnSignUp"
+    app:shadowEnabled="true"
+    app:shadowHeight="5dp"
+    app:cornerRadius="4dp"-->
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
+        android:textSize="25sp"
+        android:background="@drawable/custom_singup"
+        android:gravity="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:text="Sign Up"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic" />
+    <!-- android:background="@color/colorPrimaryDark"-->
+
+
+</RelativeLayout>

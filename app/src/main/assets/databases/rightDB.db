@@ -1,0 +1,8 @@
+CREATE TABLE 'OrderDetail' (
+	'ID'	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	'ProductId'	VARCHAR,
+	'ProductName'	VARCHAR,
+	'Quantity'	VARCHAR,
+	'Price'	VARCHAR,
+	'Discount'	VARCHAR
+);

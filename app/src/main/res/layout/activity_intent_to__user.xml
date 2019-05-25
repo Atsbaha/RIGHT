@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.saintmary.right.Intent_to_User">
+    <!--<ImageView
+        android:id="@+id/img_food"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        app:layout_collapseMode="parallax"
+        android:background="@drawable/background"
+        />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/background">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/firstLinear"
+        android:layout_marginTop="310dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnFooodOrder"
+            android:layout_marginLeft="70dp"
+            android:text="Foods"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/custom_singup"
+            />
+        <Button
+            android:id="@+id/btnDrinkkOrder"
+            android:layout_marginLeft="70dp"
+            android:text="Drinks"
+            android:textStyle="bold|italic"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_singup"
+
+            />
+        <Button
+            android:id="@+id/btnFoottballProgram"
+            android:text="Football Program"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="22dp"
+            android:layout_marginLeft="70dp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_singup"
+            />
+
+        <Button
+            android:id="@+id/btnMusiccOrder"
+            android:layout_marginLeft="70dp"
+            android:text="Musics"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_singup"
+
+            />
+
+    </LinearLayout>
+    <!--<LinearLayout
+        android:id="@+id/secondLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstLinear">
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondLinear">
+
+
+    </LinearLayout>-->
+
+</RelativeLayout>
+
